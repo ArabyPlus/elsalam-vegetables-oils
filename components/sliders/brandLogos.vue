@@ -1,6 +1,6 @@
 <template>
     <div class="brands-carousel-5">
-        <Swiper
+        <!-- <Swiper
             :modules="[SwiperAutoplay, SwiperEffectCreative]"
             :slides-per-view="2"
             :loop="true"
@@ -17,8 +17,8 @@
         >
             <SwiperSlide>
                 <div class="brand-logo">
-                    <img class="img-fluid theme-light" src="/assets/images/brand-1.png" alt="brand-logo" />
-                    <img class="img-fluid theme-dark" src="/assets/images/brand-1-white.png" alt="brand-logo" />
+                    <img class="img-fluid theme-light" src="/assets/images/elsalam/logo.png" alt="brand-logo" />
+                    <img class="img-fluid theme-dark" src="/assets/images/elsalam/logo.png" alt="brand-logo" />
                 </div>
             </SwiperSlide>
 
@@ -77,6 +77,6 @@
                     <img class="img-fluid theme-dark" src="/assets/images/brand-9-white.png" alt="brand-logo" />
                 </div>
             </SwiperSlide>
-        </Swiper>
+        </Swiper> -->
     </div>
 </template>
