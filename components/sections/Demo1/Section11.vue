@@ -5,7 +5,7 @@
             <div class="row justify-content-center">
                 <div class="col-md-10 col-lg-9">
                     <div class="brands-title mb-50">
-                        <h5 class="s-18">Martex is loved and trusted by thousands:</h5>
+                        <h5 class="s-18">مصنع السلام يعني الثقة والإستمرارية في النجاح</h5>
                     </div>
                 </div>
             </div>
