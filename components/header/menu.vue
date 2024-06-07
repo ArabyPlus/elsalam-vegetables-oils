@@ -1,6 +1,6 @@
 <template>
-    <div id="main-menu" class="wsmainfull menu clearfix ">
-        <div class="wsmainwp clearfix">
+    <div id="main-menu" class="wsmainfull menu clearfix scroll scroll">
+        <div class="wsmainwp clearfix scroll flex items-center justify-between">
             <!-- HEADER BLACK LOGO -->
             <div class="desktoplogo">
                 <NuxtLink to="/" class="logo-black"><img src="/assets/images/elsalam/logo.png" alt="logo" /></NuxtLink>
@@ -10,29 +10,29 @@
                 <NuxtLink to="/" class="logo-white"><img src="/assets/images/elsalam/logo.png" alt="logo" /></NuxtLink>
             </div>
             <!-- MAIN MENU -->
-            <nav class="wsmenu clearfix">
-                <ul class="wsmenu-list nav-theme">
+            <nav class="wsmenu clearfix scroll">
+                <ul class="wsmenu-list nav-theme ">
                     <!-- DROPDOWN SUB MENU -->
 
                     <li class="mg_link">
-                        <NuxtLink to="/contact-us" class="h-link">تواصل معنا </NuxtLink>
+                        <NuxtLink to="/contact-us" class="h-link hover:bg-orange-400 rounded w-fit ">تواصل معنا </NuxtLink>
 
                         <!-- End wsmegamenu -->
                     </li>
                     <!-- END MEGAMENU -->
                     <!-- SIMPLE NAVIGATION LINK -->
-                    <li class="nl-simple" aria-haspopup="true">
-                        <NuxtLink to="/about-us" class="h-link">من نحن</NuxtLink>
+                    <li class="" aria-haspopup="true">
+                        <NuxtLink to="/about-us" class="h-link hover:bg-orange-400 rounded w-fit "  >من نحن</NuxtLink>
                     </li>
                     <!-- SIMPLE NAVIGATION LINK -->
                     <li class="nl-simple" aria-haspopup="true">
-                        <NuxtLink to="/products" class="h-link">المنتجات</NuxtLink>
+                        <NuxtLink to="/products" class="h-link hover:bg-orange-400 rounded w-fit ">المنتجات</NuxtLink>
                     </li>
                     <li class="nl-simple" aria-haspopup="true">
-                        <NuxtLink to="/" class="h-link">الرئيسية</NuxtLink>
+                        <NuxtLink to="/" class="h-link hover:bg-orange-400 rounded w-fit ">الرئيسية</NuxtLink>
                     </li>
                     <li class="mx-4" >
-                        <HeaderDarkLightToggle />
+                        <HeaderDarkLightToggle class="" />
                     </li>
                     <!-- SIGN IN LINK -->
                     <!-- SIGN UP BUTTON -->
@@ -78,3 +78,8 @@ export default {
     }
 };
 </script>
+<style scoped>
+.h-link{
+    color: rgb(7, 180, 65) !important;
+}
+</style>

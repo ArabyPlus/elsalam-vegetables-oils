@@ -1,6 +1,6 @@
 <template>
-    <span :class="['go-to-top', { show: showGoToTop }]" @click="scrollToTop">
-        <img class="img-fluid" src="/assets/images/up_arrow.svg" alt="brand-logo" />
+    <span class="text-center mx-auto" :class="['go-to-top', { show: showGoToTop }]" @click="scrollToTop">
+        <img class="img-fluid text-center mx-auto" src="/assets/images/up_arrow.svg" alt="brand-logo" />
     </span>
 </template>
 <script>
@@ -32,6 +32,9 @@ export default {
 </script>
 <style lang="scss">
 .go-to-top {
+    @apply mx-auto;
+    justify-content: center;
+    align-content: center;
     display: block;
     position: fixed;
     bottom: -10px;

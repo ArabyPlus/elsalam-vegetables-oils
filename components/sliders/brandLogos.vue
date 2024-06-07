@@ -1,6 +1,6 @@
 <template>
     <div class="brands-carousel-5">
-        <!-- <Swiper
+        <Swiper
             :modules="[SwiperAutoplay, SwiperEffectCreative]"
             :slides-per-view="2"
             :loop="true"
@@ -17,66 +17,40 @@
         >
             <SwiperSlide>
                 <div class="brand-logo">
-                    <img class="img-fluid theme-light" src="/assets/images/elsalam/logo.png" alt="brand-logo" />
-                    <img class="img-fluid theme-dark" src="/assets/images/elsalam/logo.png" alt="brand-logo" />
+                    <img class="img-fluid theme-light" src="/assets/images/elsalam/0J6A1786.jpg" alt="brand-logo" />
+                    <img class="img-fluid theme-dark" src="/assets/images/elsalam/0J6A1786.jpg" alt="brand-logo" />
                 </div>
             </SwiperSlide>
 
             <SwiperSlide>
                 <div class="brand-logo">
-                    <img class="img-fluid theme-light" src="/assets/images/brand-2.png" alt="brand-logo" />
-                    <img class="img-fluid theme-dark" src="/assets/images/brand-2-white.png" alt="brand-logo" />
+                    <img class="img-fluid theme-light" src="/assets/images/elsalam/0J6A1996.jpg" alt="brand-logo" />
+                    <img class="img-fluid theme-dark" src="/assets/images/elsalam/0J6A1996.jpg" alt="brand-logo" />
                 </div>
             </SwiperSlide>
 
             <SwiperSlide>
                 <div class="brand-logo">
-                    <img class="img-fluid theme-light" src="/assets/images/brand-3.png" alt="brand-logo" />
-                    <img class="img-fluid theme-dark" src="/assets/images/brand-3-white.png" alt="brand-logo" />
+                    <img class="img-fluid theme-light" src="/assets/images/elsalam/0J6A2023.jpg" alt="brand-logo" />
+                    <img class="img-fluid theme-dark" src="/assets/images/elsalam/0J6A2023.jpg" alt="brand-logo" />
                 </div>
             </SwiperSlide>
 
             <SwiperSlide>
                 <div class="brand-logo">
-                    <img class="img-fluid theme-light" src="/assets/images/brand-4.png" alt="brand-logo" />
-                    <img class="img-fluid theme-dark" src="/assets/images/brand-4-white.png" alt="brand-logo" />
+                    <img class="img-fluid theme-light" src="/assets/images/elsalam/0J6A2034.jpg" alt="brand-logo" />
+                    <img class="img-fluid theme-dark" src="/assets/images/elsalam/0J6A2034.jpg" alt="brand-logo" />
                 </div>
             </SwiperSlide>
 
             <SwiperSlide>
                 <div class="brand-logo">
-                    <img class="img-fluid theme-light" src="/assets/images/brand-5.png" alt="brand-logo" />
-                    <img class="img-fluid theme-dark" src="/assets/images/brand-5-white.png" alt="brand-logo" />
+                    <img class="img-fluid theme-light" src="/assets/images/elsalam/0J6A2148.jpg" alt="brand-logo" />
+                    <img class="img-fluid theme-dark" src="/assets/images/elsalam/0J6A2148.jpg" alt="brand-logo" />
                 </div>
             </SwiperSlide>
 
-            <SwiperSlide>
-                <div class="brand-logo">
-                    <img class="img-fluid theme-light" src="/assets/images/brand-6.png" alt="brand-logo" />
-                    <img class="img-fluid theme-dark" src="/assets/images/brand-6-white.png" alt="brand-logo" />
-                </div>
-            </SwiperSlide>
-
-            <SwiperSlide>
-                <div class="brand-logo">
-                    <img class="img-fluid theme-light" src="/assets/images/brand-7.png" alt="brand-logo" />
-                    <img class="img-fluid theme-dark" src="/assets/images/brand-7-white.png" alt="brand-logo" />
-                </div>
-            </SwiperSlide>
-
-            <SwiperSlide>
-                <div class="brand-logo">
-                    <img class="img-fluid theme-light" src="/assets/images/brand-8.png" alt="brand-logo" />
-                    <img class="img-fluid theme-dark" src="/assets/images/brand-8-white.png" alt="brand-logo" />
-                </div>
-            </SwiperSlide>
-
-            <SwiperSlide>
-                <div class="brand-logo">
-                    <img class="img-fluid theme-light" src="/assets/images/brand-9.png" alt="brand-logo" />
-                    <img class="img-fluid theme-dark" src="/assets/images/brand-9-white.png" alt="brand-logo" />
-                </div>
-            </SwiperSlide>
-        </Swiper> -->
+           
+        </Swiper>
     </div>
 </template>

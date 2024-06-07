@@ -4,7 +4,7 @@
         <!-- <SectionsDemo1Section2 /> -->
         <SectionsDemo1Section3 />
         <SectionsDemo1Section4 />
-        <!-- <SectionsDemo1Section5 /> -->
+        <SectionsDemo1Section5 />
         <!-- <SectionsDemo1Section6 /> -->
         <!-- <SectionsDemo1Section7 /> -->
         <!-- <SectionsDemo1Section8 /> -->
