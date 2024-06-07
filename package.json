@@ -25,6 +25,7 @@
     "nuxt-swiper": "^1.2.0",
     "sass": "^1.63.6",
     "swiper": "^11.1.4",
+    "vue3-google-map": "^0.20.0",
     "wow.js": "^1.2.2"
   }
 }
