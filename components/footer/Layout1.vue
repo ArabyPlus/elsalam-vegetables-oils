@@ -14,7 +14,7 @@
                 <div >
                     <div class="footer-links fl-1">
                         <!-- Title -->
-                        <nuxt-link to="/" class="text-white hover:bg-orange-400 text-center px-4 py-2 rounded text-md md:text-2xl cursor-pointer " >الرئيسية</nuxt-link>
+                        <nuxt-link to="/" class="text-white hover:bg-orange-400 text-center px-4 py-2 rounded text-md md:text-2xl cursor-pointer " @click="scrollToTop()" >الرئيسية</nuxt-link>
                         <!-- Links -->
                        
                     </div>
@@ -34,7 +34,7 @@
                 <div >
                     <div class="footer-links fl-3">
                         <!-- Title -->
-                        <nuxt-link to="/about" class="text-white hover:bg-orange-400 text-center px-4 py-2 rounded text-md md:text-2xl cursor-pointer">من نحن</nuxt-link>
+                        <nuxt-link to="/about-us" class="text-white hover:bg-orange-400 text-center px-4 py-2 rounded text-md md:text-2xl cursor-pointer">من نحن</nuxt-link>
                         <!-- Links -->
                         
                     </div>
@@ -42,7 +42,7 @@
                 <div >
                     <div class="footer-links fl-3">
                         <!-- Title -->
-                        <nuxtLink to="/contact" class="text-white hover:bg-orange-400 text-center px-4 py-2 rounded text-md md:text-2xl cursor-pointer">تواصل معنا</nuxtLink>
+                        <nuxtLink to="/contact-us" class="text-white hover:bg-orange-400 text-center px-4 py-2 rounded text-md md:text-2xl cursor-pointer">تواصل معنا</nuxtLink>
                         <!-- Links -->
                         
                     </div>
@@ -95,3 +95,8 @@
     </footer>
 </template>
 
+<script setup>
+const scrollToTop = () => {
+  window.scrollTo({ top: 0, behavior: 'smooth' })
+}
+</script>
